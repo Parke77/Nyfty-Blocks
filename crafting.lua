@@ -9,6 +9,16 @@ minetest.register_craft({
     }
 })
 
+-- Iron Bar Block
+minetest.register_craft({
+    output = "nyftyblocks:iron_bar_block 4",
+    recipe = {
+        {"", "", ""},
+        {"","xpanes:bar_flat", "xpanes:bar_flat"},
+        {"","xpanes:bar_flat", "xpanes:bar_flat"}
+    }
+})
+
 -- brass frame
 minetest.register_craft({
     type = "shaped",

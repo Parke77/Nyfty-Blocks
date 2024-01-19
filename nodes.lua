@@ -8,6 +8,17 @@ minetest.register_node("nyftyblocks:metal_frame", {
     sounds = default.node_sound_metal_defaults()
 })
 
+minetest.register_node("nyftyblocks:iron_bar_block", {
+    description = "Iron Bar Block",
+    tiles = {"xpanes_bar.png"},
+    drawtype = "nodebox",
+    paramtype = "light",
+    sunlight_propagates = true,
+    groups = {oddly_breakable_by_hand = 1, cracky = 3},
+    sounds = default.node_sound_metal_defaults()
+})
+
+
 minetest.register_node("nyftyblocks:brass_frame", {
     description = "Brass Frame",
     tiles = {"nyftyblocks_brass_frame.png"},
